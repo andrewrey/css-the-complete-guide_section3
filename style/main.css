@@ -12,6 +12,48 @@ body {
   padding: 8px 16px;
 }
 
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 75px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.main-nav__item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+}
+
+.main-nav__item a:hover {
+  color: orange;
+}
+
+.main-nav__item a:active {
+  color: purple;
+}
+
 #product-overview {
   background: #ff1b68;
   width: 100%;
