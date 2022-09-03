@@ -40,10 +40,20 @@
 
 #free {
   background-color: rgba(234, 252, 237, 0.95);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  text-align: right;
+}
+
+#free:hover,
+#free:active {
+  border-left: 4px solid #ff5454;
 }
 
 #premium {
   background-color: rgba(14, 79, 31, 0.95);
+  clear: both;
 }
 
 #premium .package__title {
