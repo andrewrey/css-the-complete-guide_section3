@@ -7,7 +7,7 @@
   background-position: center;
 }
 
-.main {
+main {
   padding-top: 32px;
 }
 
@@ -45,6 +45,18 @@
 
 #plus {
   background: rgba(213, 255, 220, 0.95);
+  position: relative;
+}
+
+.package__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 12px;
+  color: white;
+  background: #ff5454;
+  padding: 8px;
 }
 
 #free {
